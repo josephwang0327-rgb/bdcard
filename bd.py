@@ -4,7 +4,7 @@ from flask import render_template
 
 app = Flask(__name__)
 
-@app.route("nini2026")
+@app.route("/nini2026")
 def nini2026() :
     return render_template("ni1.html")
 
